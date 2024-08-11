@@ -4,7 +4,8 @@
   "description": "Software that check your PC ",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "node index.js",
+    "build": "pkg index.js"
   },
   "keywords": [
     "abstract"
