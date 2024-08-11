@@ -1,0 +1,14 @@
+{
+  "name": "abschecksoftware",
+  "version": "0.0.1",
+  "description": "Software that check your PC ",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "abstract"
+  ],
+  "author": "finderfail",
+  "license": "ISC"
+}
