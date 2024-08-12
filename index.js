@@ -62,16 +62,21 @@ async function work_abs() {
         request(process.env.WIN32,
             (err, response, body) => {
                 return console.log(body);
+                
             }
         );
+        await delay(15000);
     } else if (platform == "darwin") {
         request(process.env.DARWIN,
             (err, response, body) => {
                 return console.log(body);
+                
             }
-        );
+        );     
+        await delay(15000);
     } else {
         console.log(("Why are you here?"));
+        await delay(15000);
     }
 
 }
