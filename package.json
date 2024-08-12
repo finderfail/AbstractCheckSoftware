@@ -1,5 +1,6 @@
 {
   "name": "abschecksoftware",
+  "type": "commonjs",
   "version": "0.0.1",
   "description": "Software that check your PC ",
   "main": "index.js",
@@ -11,5 +12,9 @@
     "abstract"
   ],
   "author": "finderfail",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "request": "^2.88.2"
+  }
 }
