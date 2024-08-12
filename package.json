@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "test": "node index.js",
-    "build": "pkg index.js"
+    "build": "pkg --public index.js"
   },
   "keywords": [
     "abstract"
